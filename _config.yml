@@ -1,0 +1,36 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: fm.css.101.so
+email: zoomquiet+fm@gmail.com
+description: "Podcast from CRYPTO STARTUP SCHOOL"
+subtitle: "Podcast from CRYPTO STARTUP SCHOOL"
+lang: zh-cn
+author: CampusVC
+copyright: "CRYPTO STARTUP SCHOOL"
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # https://fm.css.101.so" # the base hostname & protocol for your site
+#itunes: "https://podcasts.apple.com/us/podcast/fm-101-camp/id1499193864"
+twitter_username: zoomq
+github_username:  zoomquiet
+
+permalink: /:year/:title.html
+
+#Timezone
+timezone: Asia/Shanghai
+
+#Setup for Pages
+include: ['_pages']
+
+# Build settings
+markdown: kramdown
+
+#Exclude local build settings
+exclude: ['readme.md', 'Gemfile.lock', 'Gemfile']
+

@@ -1,0 +1,46 @@
+---
+layout: default
+---
+<p>欢迎来 <strong>fm.101.camp</strong>, 这是蟒营™101.camp 的播客站,
+    不定期更新,
+    关注学习和其它各种值得探讨的
+    <strong>有趣/有用/有种</strong>
+    问题.
+    欢迎各种反馈/建议/分享/...
+    除了网页评注, 还可以通过邮件直接联系我们:
+    <a href="mailto:askdama@googlegroups.com?subject=I found fm.101.camp and wanted to say hi!">email</a> 
+    或是 <a href="http://twitter.com/zoomq">twitter</a>!</p>
+
+<div class="card-grid">
+<!--     -->
+    
+    {% assign first_post = site.posts.first %}
+    <div class="cards first">
+        <h1 class="label reversed">Latest Episode</h1>
+        <div class="center-content">
+            <div class="seven columns">
+                <h2><a class="post-link" href="{{ first_post.url | prepend: site.baseurl }}">{{ first_post.title }}</a></h2>
+                
+                <p class="meta">{{ first_post.date | date: "%b %-d, %Y" }}</p>
+                <p>{{ first_post.summary }} </p> 
+            </div>
+            <div class="four columns center-content">
+                <a href="{{ first_post.file }}" class="button button-primary" download="{{ first_post.title }}">Download Now</a>    
+            </div>
+        </div>            
+        </div>
+    
+    {% for post in site.posts offset:1 %}
+        <div class="cards">
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <p class="meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+        <p>{{ post.summary }} </p>
+        </div>
+    {% endfor %}
+    
+</div>
+
+<div class="container center-content extra-padding">
+</div>
