@@ -14,7 +14,7 @@ lang: zh-cn
 author: CampusVC
 copyright: "CRYPTO STARTUP SCHOOL"
 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/podcast" # the subpath of your site, e.g. /blog
 url: "" # https://fm.css.101.so" # the base hostname & protocol for your site
 #itunes: "https://podcasts.apple.com/us/podcast/fm-101-camp/id1499193864"
 twitter_username: zoomq
