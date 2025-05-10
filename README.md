@@ -25,7 +25,7 @@
 - 登录 github, 并确保已经拥有仓库的管理权限
     + 将自己的github 帐号, 类似: https://github.com/ZoomQuiet 这种链接
     + 提供给管理员, 进行邀请
-    + 然后, 在 https://github.com/VCCampus 应该可以看到浮动警示信息
+    + 然后, 在 https://github.com/VCCampus 应该可以看到浮动警示信息(也可以通过邮箱信息的链接接受邀请)
     + 点击接受邀请,
     + 然后, 可以进入 [VCCampus/podcast/settings](https://github.com/VCCampus/podcast/settings) 配置后台, 说明权限已经绑定好
 - 进入: https://github.com/VCCampus/podcast/tree/main/_posts
