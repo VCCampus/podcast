@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: fm.css.101.so
+title: CRYPTO STARTUP SCHOOL
 email: zoomquiet+fm@gmail.com
 description: "Podcast from CRYPTO STARTUP SCHOOL"
 subtitle: "Podcast from CRYPTO STARTUP SCHOOL"
@@ -14,8 +14,8 @@ lang: zh-cn
 author: CampusVC
 copyright: "CRYPTO STARTUP SCHOOL"
 
-baseurl: "/podcast" # the subpath of your site, e.g. /blog
-url: "" # https://fm.css.101.so" # the base hostname & protocol for your site
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://css.xiaoyuanvc.com" # https://fm.css.101.so" # the base hostname & protocol for your site
 #itunes: "https://podcasts.apple.com/us/podcast/fm-101-camp/id1499193864"
 twitter_username: zoomq
 github_username:  zoomquiet
